@@ -1,0 +1,17 @@
+import random
+print("Hey there, I'm thinking of a number between 1 and 10, think you can guess it?")
+Guess = int(input("Give a Guess!:")
+number = rand.int(range(1,11))
+i = 0
+while i< 10:
+  if Guess > number:
+    print("Oh no! That's not quite right. Try a little lower.")
+    Guess = int(input(Give a Guess!:")
+    i +=1
+  elif Guess < n
+    print("Oh no! That's not quite right. Try a little higher.")
+    Guess = int(input(Give a Guess!:")
+    i += 1
+   else:
+    print("Congrats! That's correct!")
+    
